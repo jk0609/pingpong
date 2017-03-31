@@ -4,15 +4,36 @@
 
 ## Description
 
-Exercise in HTML forms and Javascript/JQuery. Answer the questions on the right side and the page will show you a recommended coding language to pursue that best fits your priorities.
+Exercise in Javascript/jQuery with looping and arrays. User inputs a number and the page returns a list of numbers with multiples of 3, 5 and 15 replaced with different words. Can handle number inputs of any size, though anything above 3 digits is not recommended. Can reject non-number inputs and recognize commas and floating point numbers, though it will round them to the nearest integer.
 
-Answers are assigned numerical point values that are added and organized into 4 categorical variables. Nested if/else statements on the point values determine which hidden answer to reveal to the user. A mix of selection questions (options range from strongly disagree-strongly agree) and true/false radio input questions implemented as tie-breakers.
+## Specifications
+•	Rejects inputs with non-numeric characters.
+  o	Example Input: 2a!
+  o	Example Output: ‘Please enter a number’
+•	Can count up to the inputted number.
+  o	Example Input: 5
+  o	Example Output: [1,2,3,4,5]
+•	Can successfully replace multiples of 15 with ‘ping-pong’
+  o	Example Input: 30
+  o	Example Output:[1,2,3…,14,’ping-pong’,16…..28,29,’ping-pong’]
+•	Can successfully replace multiples of 5 (but not 15) with ‘pong’
+  o	Example Input: 10
+  o	Example Output:[1,2,3,4,’pong’,6…9,’pong’]
+•	Can successfully replace multiples of 3 (but not 15) with ‘ping’
+  o	Example Input: 6
+  o	Example Output: [1,2,’ping’,4,5,’ping’]
+•	Recognizes numbers with commas
+  o	Example Input: 2,000
+  o	Example Output: [1,2,3……1999,2000]
+•	Recognizes floating numbers and rounds to nearest integer
+  o	Example Input: 2.5
+  o	Example Output: [1,2,3]
 
 ## Setup/Installation Requirements
 
 Clone the repository and open the index.html file in a browser of your choice. Make sure not to move any of the images or additional folders in the directory.
 
-Alternatively, visit https://jk0609.github.io/track-suggester to see the current live version.
+Alternatively, visit https://jk0609.github.io/pingpong to see the current live version.
 
 ## Technologies Used
 
