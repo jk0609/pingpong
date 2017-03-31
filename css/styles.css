@@ -1,0 +1,36 @@
+body{
+  background: #E6E6E6;
+}
+
+#header{
+  text-align: center;
+  background: #F5DFB2;
+  height: 200px;
+  padding-top: 50px;
+}
+#header h1{
+  font-size: 60px;
+}
+
+#mainDiv{
+  min-height: 1000px;
+}
+#formDiv{
+  position: absolute;
+  margin: 60px 0px 0px 280px;
+
+}
+#aboutDiv{
+  background: #8FBC8E;
+  position: absolute;
+  margin-top: 30px;
+  height: 100%;
+  width: 220px;
+  padding-left: 5px;
+}
+#aboutDiv h4{
+  color:#F5DFB2
+}
+#aboutDiv p{
+  color: white;
+}
