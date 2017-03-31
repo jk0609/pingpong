@@ -8,26 +8,26 @@ Exercise in Javascript/jQuery with looping and arrays. User inputs a number and 
 
 ## Specifications
 * Rejects inputs with non-numeric characters.
-..* Example Input: 2a!
-..* Example Output: ‘Please enter a number’
+  * Example Input: 2a!
+  * Example Output: ‘Please enter a number’
 * Can count up to the inputted number.
-..* Example Input: 5
-..* Example Output: [1,2,3,4,5]
+  * Example Input: 5
+  * Example Output: [1,2,3,4,5]
 * Can successfully replace multiples of 15 with ‘ping-pong’
-..* Example Input: 30
-..* Example Output:[1,2,3…,14,’ping-pong’,16…..28,29,’ping-pong’]
+  * Example Input: 30
+  * Example Output:[1,2,3…,14,’ping-pong’,16…..28,29,’ping-pong’]
 * Can successfully replace multiples of 5 (but not 15) with ‘pong’
-..* Example Input: 10
-..* Example Output:[1,2,3,4,’pong’,6…9,’pong’]
+  * Example Input: 10
+  * Example Output:[1,2,3,4,’pong’,6…9,’pong’]
 * Can successfully replace multiples of 3 (but not 15) with ‘ping’
-..* Example Input: 6
-..* Example Output: [1,2,’ping’,4,5,’ping’]
+  * Example Input: 6
+  * Example Output: [1,2,’ping’,4,5,’ping’]
 * Recognizes numbers with commas
-..* Example Input: 2,000
-..* Example Output: [1,2,3……1999,2000]
+  * Example Input: 2,000
+  * Example Output: [1,2,3……1999,2000]
 * Recognizes floating numbers and rounds to nearest integer
-..* Example Input: 2.5
-..* Example Output: [1,2,3]
+  * Example Input: 2.5
+  * Example Output: [1,2,3]
 
 ## Setup/Installation Requirements
 
